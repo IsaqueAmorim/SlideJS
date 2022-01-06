@@ -1,0 +1,47 @@
+*{margin:0;
+padding: 0;
+
+}
+body{
+    height: 100vh;
+    text-align: center;
+    background-color: #001219;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.slide{
+    width: 960px;
+    height: 720px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 20px;
+    transition: .2s;
+    z-index: 19999;
+    
+}
+
+
+.input{
+    margin-top: -30px;
+}
+button{
+    margin-top: -50px;
+    cursor: pointer;
+    color: #202020;
+    width: 20px;
+    height: 20px;
+    border: solid 2px #fff;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    transition: 1.2s;
+}
+.active{
+    background-color: #fff;
+}
